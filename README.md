@@ -1,6 +1,9 @@
-#!/bin/bash
-echo 'done'
-#!/bin/bash
-echo 'done'
+# GraphBuilder-947768
 
-# fb23d0
+A Java GraphBuilder utility.
+
+## Build
+
+```bash
+javac Main.java && java Main
+```
